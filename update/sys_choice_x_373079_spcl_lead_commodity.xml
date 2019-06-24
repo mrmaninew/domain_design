@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="commodity" table="x_373079_spcl_lead" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>commodity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stuffed Cotton</label>
+            <language>en</language>
+            <name>x_373079_spcl_lead</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-24 11:51:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>06fc1a20db523300442c7b823996194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-24 11:51:20</sys_updated_on>
+            <value>Stuffed Cotton</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>commodity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fertilizer</label>
+            <language>en</language>
+            <name>x_373079_spcl_lead</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-24 11:51:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>46fc1260db523300442c7b823996192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-24 11:51:20</sys_updated_on>
+            <value>Fertilizer</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>commodity</element>
+            <name>x_373079_spcl_lead</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-24 11:51:20</sys_created_on>
+            <sys_id>8efc1a20db523300442c7b823996194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>commodity</sys_name>
+            <sys_package display_value="SPCL" source="x_373079_spcl">74836fafdb023300442c7b82399619a1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SPCL">74836fafdb023300442c7b82399619a1</sys_scope>
+            <sys_update_name>sys_choice_x_373079_spcl_lead_commodity</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-24 11:51:20</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
