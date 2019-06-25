@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="rate" table="x_373079_spcl_quote" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Flat Rate</label>
+            <language>en</language>
+            <name>x_373079_spcl_quote</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-25 08:08:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>49733ef4db523300442c7b82399619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-25 08:08:04</sys_updated_on>
+            <value>Flat Rate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Per KM</label>
+            <language>en</language>
+            <name>x_373079_spcl_quote</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-25 08:08:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4d733ef4db523300442c7b82399619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-25 08:08:04</sys_updated_on>
+            <value>Per KM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Per Ton</label>
+            <language>en</language>
+            <name>x_373079_spcl_quote</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-25 08:08:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d733ef4db523300442c7b82399619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-25 08:08:04</sys_updated_on>
+            <value>Per Ton</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Per KM / Per Ton</label>
+            <language>en</language>
+            <name>x_373079_spcl_quote</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-25 08:08:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9733ef4db523300442c7b82399619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-25 08:08:04</sys_updated_on>
+            <value>Per KM / Per Ton</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>rate</element>
+            <name>x_373079_spcl_quote</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-25 08:08:04</sys_created_on>
+            <sys_id>05733ef4db523300442c7b82399619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>rate</sys_name>
+            <sys_package display_value="SPCL" source="x_373079_spcl">74836fafdb023300442c7b82399619a1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SPCL">74836fafdb023300442c7b82399619a1</sys_scope>
+            <sys_update_name>sys_choice_x_373079_spcl_quote_rate</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-25 08:08:04</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

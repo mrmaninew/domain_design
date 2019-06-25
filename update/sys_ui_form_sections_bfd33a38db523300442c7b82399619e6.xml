@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="bfd33a38db523300442c7b82399619e6" sys_domain="global" table="x_373079_spcl_quote" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-25 08:09:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>73d33a38db523300442c7b82399619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_373079_spcl_quote" name="x_373079_spcl_quote" sys_domain="global" view="Default view">bfd33a38db523300442c7b82399619e6</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_373079_spcl_quote" sys_domain="global" view="Default view">0222f2f4db523300442c7b8239961974</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-25 08:09:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-25 08:09:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3fd33a38db523300442c7b82399619e9</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_373079_spcl_quote" name="x_373079_spcl_quote" sys_domain="global" view="Default view">bfd33a38db523300442c7b82399619e6</sys_ui_form>
+            <sys_ui_section caption="Rate" display_value="Rate" name="x_373079_spcl_quote" sys_domain="global" view="Default view">73d33a38db523300442c7b82399619e6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-25 08:19:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-25 08:14:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ae43678db523300442c7b823996196c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_373079_spcl_quote" name="x_373079_spcl_quote" sys_domain="global" view="Default view">bfd33a38db523300442c7b82399619e6</sys_ui_form>
+            <sys_ui_section caption="Vehicles" display_value="Vehicles" name="x_373079_spcl_quote" sys_domain="global" view="Default view">12e43678db523300442c7b823996196a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-25 08:18:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-25 08:18:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>59e5fe78db523300442c7b823996196e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_373079_spcl_quote" name="x_373079_spcl_quote" sys_domain="global" view="Default view">bfd33a38db523300442c7b82399619e6</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_373079_spcl_quote" sys_domain="global" view="Default view">1de5fe78db523300442c7b823996196b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-25 08:19:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_373079_spcl_quote</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-25 08:09:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bfd33a38db523300442c7b82399619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_373079_spcl_quote</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SPCL" source="x_373079_spcl">74836fafdb023300442c7b82399619a1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SPCL">74836fafdb023300442c7b82399619a1</sys_scope>
+            <sys_update_name>sys_ui_form_sections_bfd33a38db523300442c7b82399619e6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-25 08:09:53</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

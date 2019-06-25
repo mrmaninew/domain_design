@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Lead" max_length="40" name="x_373079_spcl_lead" type="collection">
         <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
-        <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element default="Sales &amp; Marketing" label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
         <element label="Cargo Volume" max_length="40" name="cargo_volume" type="integer"/>
         <element choice="1" label="Commodity" max_length="40" name="commodity" type="choice">
             <choice>
@@ -19,7 +19,6 @@
         <element label="Customer" max_length="32" name="customer" reference="core_company" type="reference"/>
         <element label="Delivery Date" max_length="40" name="delivery_date" type="glide_date_time"/>
         <element label="From" max_length="32" name="from" reference="cmn_location" type="reference"/>
-        <element label="Lead No" max_length="40" name="lead_no" type="string"/>
         <element choice="1" default="External" label="Movement" max_length="40" name="movement" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Internal" sequence="0" value="Internal"/>
@@ -27,8 +26,9 @@
             </choice>
         </element>
         <element label="No of Vehicles" max_length="40" name="no_of_vehicles" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Pick Up Date" max_length="40" name="pick_up_date" type="glide_date_time"/>
-        <element choice="1" label="State" max_length="40" name="state" type="choice">
+        <element choice="3" default="New" label="State" max_length="40" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="New" sequence="0" value="New"/>
                 <element inactive="true" inactive_on_update="true" label="Proposed" sequence="0" value="Proposed"/>
@@ -47,6 +47,7 @@
             </choice>
         </element>
         <element label="Volume Units" max_length="40" name="volume_units" type="string"/>
+        <element label="Worknotes" max_length="4000" name="worknotes" type="journal"/>
         <index name="index">
             <element name="assignment_group"/>
         </index>

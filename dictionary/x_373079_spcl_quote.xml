@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Quote" max_length="40" name="x_373079_spcl_quote" type="collection">
+        <element label="Actual Rate" max_length="20" name="actual_rate" type="price"/>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element default="Sales &amp; Marketing" label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Customer Watch List" max_length="4000" name="customer_watch_list" reference="sys_user" type="glide_list"/>
+        <element label="Final Rate" max_length="20" name="final_rate" type="price"/>
+        <element label="Internal Watch List" max_length="4000" name="internal_watch_list" reference="sys_user" type="glide_list"/>
+        <element label="Lead" mandatory="true" max_length="32" name="lead" read_only="true" reference="x_373079_spcl_lead" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" default="Per KM" label="Rate " max_length="40" name="rate" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Flat Rate" sequence="0" value="Flat Rate"/>
+                <element inactive_on_update="false" label="Per KM" sequence="1" value="Per KM"/>
+                <element inactive_on_update="false" label="Per Ton" sequence="2" value="Per Ton"/>
+                <element inactive_on_update="false" label="Per KM / Per Ton" sequence="3" value="Per KM / Per Ton"/>
+            </choice>
+        </element>
+        <element label="Rate Conversations" max_length="4000" name="rate_conversations" type="journal_input"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="New" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Accepted" sequence="0" value="Accepted"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="New"/>
+                <element inactive_on_update="false" label="In-Progress" sequence="1" value="In-Progress"/>
+                <element inactive_on_update="false" label="Accepted Quote" sequence="2" value="Accepted Quote"/>
+                <element inactive_on_update="false" label="Closed / Declined Quote" sequence="3" value="Closed / Declined Quote"/>
+            </choice>
+        </element>
+        <element label="Total  Travel Distance" max_length="40" name="total_travel_distance" type="float"/>
+        <element label="Vehicles" max_length="4000" name="vehicles" type="simple_name_values"/>
+        <element label="Worknotes" max_length="4000" name="worknotes" type="journal"/>
+        <index name="index">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index2">
+            <element name="lead"/>
+        </index>
+        <index name="index3">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>
