@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Insurance" max_length="40" name="x_373079_spcl_insurance" type="collection">
+        <element label="Insurance Cost" max_length="20" name="insurance_cost" type="price"/>
+        <element label="Insurance Provider" max_length="32" name="insurance_provider" reference="core_company" type="reference"/>
+        <element label="Insurance Purchase Date" max_length="40" name="insurance_purchase_date" type="glide_date"/>
+        <element label="Insurance Renewal Date" max_length="40" name="insurance_renewal_date" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Valid From" max_length="40" name="valid_from" type="glide_date_time"/>
+        <element label="Valid To" max_length="40" name="valid_to" type="glide_date_time"/>
+        <element label="Vehicle" max_length="32" name="vehicle" reference="x_373079_spcl_vehicle" type="reference"/>
+        <index name="index">
+            <element name="insurance_provider"/>
+        </index>
+        <index name="index2">
+            <element name="vehicle"/>
+        </index>
+    </element>
+</database>

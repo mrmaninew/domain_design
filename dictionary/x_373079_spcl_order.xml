@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="task" label="Order" max_length="40" name="x_373079_spcl_order" sizeclass="1" type="collection">
+        <element label="Accepted Rate" max_length="20" name="accepted_rate" type="price"/>
+        <element label="Additional Expenses" max_length="20" name="additional_expenses" type="price"/>
         <element label="Booking Code" max_length="40" name="booking_code" type="string"/>
         <element label="Cargo Volume" max_length="40" name="cargo_volume" type="integer"/>
         <element label="CDO" max_length="40" name="cdo" type="string"/>
@@ -39,6 +41,10 @@
         <element label="Port Cut-off Time" max_length="40" name="port_cut_off_time" type="glide_date_time"/>
         <element label="TDO " max_length="40" name="tdo" type="string"/>
         <element label="To" max_length="32" name="to" reference="core_company" type="reference"/>
+        <element label="Total Fuel Consumed" max_length="20" name="total_fuel_consumed" type="decimal"/>
+        <element label="Total Fuel Cost" max_length="20" name="total_fuel_cost" type="price"/>
+        <element label="Total Transit Cost" max_length="20" name="total_transit_cost" type="price"/>
+        <element label="Total Travel Time (In HRS)" max_length="40" name="total_travel_time_in_hrs" type="glide_duration"/>
         <element choice="3" default="20FT" label="Vehicle Type" max_length="40" name="vehicle_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="20FT" sequence="0" value="20FT"/>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Driver" max_length="40" name="x_373079_spcl_driver" type="collection">
-        <element label="Address" max_length="40" name="address" type="string"/>
+        <element label="Address" max_length="40" name="address" type="string_full_utf8"/>
+        <element label="Code" max_length="40" name="code" type="string"/>
         <element label="Date of Birth" max_length="40" name="date_of_birth" type="glide_date"/>
         <element label="First Name" max_length="40" name="first_name" type="string"/>
         <element label="Last Name" max_length="40" name="last_name" type="string"/>

@@ -19,6 +19,8 @@
         <element label="Front Tire Type&#9;" max_length="40" name="front_tire_type" type="string"/>
         <element label="Front Track Width" max_length="20" name="front_track_width" type="decimal"/>
         <element label="Front Wheel Diameter&#9;" max_length="40" name="front_wheel_diameter" type="string"/>
+        <element label="Fuel Tank Capacity" max_length="40" name="fuel_tank_capacity" type="integer"/>
+        <element label="Fuel Type" max_length="40" name="fuel_type" type="string"/>
         <element label="Gross Vehicle Weight Rating&#9;" max_length="40" name="gross_vehicle_weight_rating" type="string"/>
         <element label="Ground Clearance" max_length="40" name="ground_clearance" type="string"/>
         <element label="Height" max_length="40" name="height" type="string"/>
@@ -29,10 +31,16 @@
         <element label="Max Payload" max_length="40" name="max_payload" type="string"/>
         <element label="Max Torque" max_length="40" name="max_torque" type="integer"/>
         <element label="Model" max_length="40" name="model" type="string"/>
+        <element label="Notes" max_length="4000" name="notes" type="journal"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Oil Capacity" max_length="40" name="oil_capacity" type="integer"/>
         <element choice="1" label="Ownership" max_length="40" name="ownership" type="choice">
             <choice/>
         </element>
+        <element label="Purchase Date&#9;" max_length="40" name="purchase_date" type="glide_date_time"/>
+        <element label="Purchase Odometer&#9;" max_length="40" name="purchase_odometer" type="string"/>
+        <element label="Purchase Price&#9;" max_length="20" name="purchase_price" type="price"/>
+        <element label="Purchase Vendor&#9;" max_length="40" name="purchase_vendor" type="string"/>
         <element label="Rear Axle&#9;" max_length="40" name="rear_axle" type="string"/>
         <element label="Rear Tire PSI&#9;" max_length="40" name="rear_tire_psi" type="integer"/>
         <element label="Rear Tire Type" max_length="40" name="rear_tire_type" type="string"/>
@@ -40,12 +48,24 @@
         <element label="Rear Wheel Diameter" max_length="40" name="rear_wheel_diameter" type="string"/>
         <element label="Redline RPM" max_length="40" name="redline_rpm" type="integer"/>
         <element label="Registration Number" max_length="40" name="registration_number" type="string"/>
+        <element choice="3" default="Active" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="0" value="Active"/>
+                <element inactive="true" inactive_on_update="true" label="In Active" sequence="0" value="In Active"/>
+                <element inactive_on_update="false" label="Inactive" sequence="1" value="Inactive"/>
+                <element inactive_on_update="false" label="Engaged" sequence="2" value="Engaged"/>
+                <element inactive_on_update="false" label="In Shop" sequence="3" value="In Shop"/>
+                <element inactive_on_update="false" label="Out of Service" sequence="4" value="Out of Service"/>
+                <element inactive_on_update="false" label="Breakdown" sequence="5" value="Breakdown"/>
+            </choice>
+        </element>
         <element label="Stroke" max_length="40" name="stroke" type="integer"/>
         <element label="Towing Capacity" max_length="40" name="towing_capacity" type="string"/>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
             <choice/>
         </element>
         <element label="Valves" max_length="40" name="valves" type="integer"/>
+        <element label="Warranty Expiration Date&#9;" max_length="40" name="warranty_expiration_date" type="glide_date_time"/>
         <element label="Wheelbase" max_length="40" name="wheelbase" type="string"/>
         <element label="Width" max_length="40" name="width" type="string"/>
         <element label="Year" max_length="40" name="year" type="integer"/>

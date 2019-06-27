@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Issue" max_length="40" name="x_373079_spcl_issue" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Vehicle" max_length="32" name="vehicle" reference="x_373079_spcl_vehicle" type="reference"/>
+        <index name="index">
+            <element name="vehicle"/>
+        </index>
+    </element>
+</database>

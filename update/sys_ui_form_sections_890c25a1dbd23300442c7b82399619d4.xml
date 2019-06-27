@@ -21,12 +21,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>490c25a1dbd23300442c7b82399619d7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_373079_spcl_order" name="x_373079_spcl_order" sys_domain="global" view="Default view">890c25a1dbd23300442c7b82399619d4</sys_ui_form>
             <sys_ui_section caption="Consignment" display_value="Consignment" name="x_373079_spcl_order" sys_domain="global" view="Default view">810c25a1dbd23300442c7b82399619d3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-27 10:51:24</sys_updated_on>
+            <sys_updated_on>2019-06-27 19:10:13</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
@@ -35,12 +35,26 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>8d0c65a1dbd23300442c7b82399619f8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_373079_spcl_order" name="x_373079_spcl_order" sys_domain="global" view="Default view">890c25a1dbd23300442c7b82399619d4</sys_ui_form>
             <sys_ui_section caption="Notes" display_value="Notes" name="x_373079_spcl_order" sys_domain="global" view="Default view">4d0c25a1dbd23300442c7b82399619d3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-27 10:51:24</sys_updated_on>
+            <sys_updated_on>2019-06-27 19:10:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-27 19:09:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea1e5feddbd63300442c7b8239961990</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_373079_spcl_order" name="x_373079_spcl_order" sys_domain="global" view="Default view">890c25a1dbd23300442c7b82399619d4</sys_ui_form>
+            <sys_ui_section caption="Cost Analysis" display_value="Cost Analysis" name="x_373079_spcl_order" sys_domain="global" view="Default view">ae1e5feddbd63300442c7b823996198d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-27 19:10:13</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_373079_spcl_order</name>
