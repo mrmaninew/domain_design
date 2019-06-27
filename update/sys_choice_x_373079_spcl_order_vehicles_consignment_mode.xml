@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="consignment_mode" table="x_373079_spcl_order_vehicles" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consignment_mode</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bulk</label>
+            <language>en</language>
+            <name>x_373079_spcl_order_vehicles</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-27 11:43:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>69e7b56ddbd23300442c7b82399619b3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-27 11:49:02</sys_updated_on>
+            <value>Bulk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consignment_mode</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Break Bulk</label>
+            <language>en</language>
+            <name>x_373079_spcl_order_vehicles</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-27 11:43:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2de7b56ddbd23300442c7b82399619b4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-27 11:49:02</sys_updated_on>
+            <value>Break Bulk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consignment_mode</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Container</label>
+            <language>en</language>
+            <name>x_373079_spcl_order_vehicles</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-27 11:43:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e9e7b96ddbd23300442c7b8239961998</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-27 11:49:02</sys_updated_on>
+            <value>Container</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>consignment_mode</element>
+            <name>x_373079_spcl_order_vehicles</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-27 11:43:18</sys_created_on>
+            <sys_id>e1e7b56ddbd23300442c7b82399619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>consignment_mode</sys_name>
+            <sys_package display_value="SPCL" source="x_373079_spcl">74836fafdb023300442c7b82399619a1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SPCL">74836fafdb023300442c7b82399619a1</sys_scope>
+            <sys_update_name>sys_choice_x_373079_spcl_order_vehicles_consignment_mode</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-27 11:43:18</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

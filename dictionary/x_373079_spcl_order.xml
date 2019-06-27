@@ -1,5 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="task" label="Order" max_length="40" name="x_373079_spcl_order" type="collection">
+        <element label="Cargo Volume" max_length="40" name="cargo_volume" type="integer"/>
+        <element label="CDO" max_length="40" name="cdo" type="string"/>
+        <element choice="1" label="Commodity" max_length="40" name="commodity" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Fetilizer" sequence="0" value="Fetilizer"/>
+                <element inactive_on_update="false" label="Stuffed Cotton" sequence="0" value="Stuffed Cotton"/>
+                <element inactive_on_update="false" label="Fertilizers" sequence="1" value="Fertilizers"/>
+            </choice>
+        </element>
+        <element choice="3" default="Bulk" label="Consignment Mode" max_length="40" name="consignment_mode" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bulk" sequence="0" value="Bulk"/>
+                <element inactive_on_update="false" label="Break Bulk" sequence="1" value="Break Bulk"/>
+                <element inactive_on_update="false" label="Container" sequence="2" value="Container"/>
+            </choice>
+        </element>
+        <element choice="3" default="Import" label="Consignment Type" max_length="40" name="consignment_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Import" sequence="0" value="Import"/>
+                <element inactive_on_update="false" label="Export" sequence="1" value="Export"/>
+            </choice>
+        </element>
+        <element label="Customer" max_length="32" name="customer" reference="core_company" type="reference"/>
+        <element label="Delivery Date" max_length="40" name="delivery_date" type="glide_date_time"/>
+        <element label="From" max_length="32" name="from" reference="cmn_location" type="reference"/>
         <element label="Lead" max_length="32" name="lead" read_only="true" reference="x_373079_spcl_lead" type="reference"/>
+        <element choice="3" default="Internal" label="Movement" max_length="40" name="movement" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Internal" sequence="0" value="Internal"/>
+                <element inactive_on_update="false" label="External" sequence="1" value="External"/>
+            </choice>
+        </element>
+        <element label="No of Vehicles" max_length="40" name="no_of_vehicles" type="integer"/>
+        <element label="Pick Up Date" max_length="40" name="pick_up_date" type="glide_date_time"/>
+        <element label="TDO " max_length="40" name="tdo" type="string"/>
+        <element label="To" max_length="32" name="to" reference="core_company" type="reference"/>
+        <element choice="3" default="20FT" label="Vehicle Type" max_length="40" name="vehicle_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="20FT" sequence="0" value="20FT"/>
+                <element inactive_on_update="false" label="40FT" sequence="1" value="40FT"/>
+            </choice>
+        </element>
+        <element choice="1" label="Volume Units" max_length="40" name="volume_units" type="string">
+            <choice/>
+        </element>
     </element>
 </database>
