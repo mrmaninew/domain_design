@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="task" table="x_373079_spcl_order">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="valves" table="x_373079_spcl_vehicle">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Valves</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,15 +27,15 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>valves</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <internal_type display_value="Integer">integer</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_373079_spcl_order</name>
+        <name>x_373079_spcl_vehicle</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -47,21 +47,21 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>1</sizeclass>
+        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-06-25 09:23:30</sys_created_on>
-        <sys_id>8ab4c3f4db923300442c7b8239961904</sys_id>
+        <sys_created_on>2019-06-27 18:38:39</sys_created_on>
+        <sys_id>edd65f29dbd63300442c7b823996194b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_373079_spcl_order</sys_name>
+        <sys_name>Valves</sys_name>
         <sys_package display_value="SPCL" source="x_373079_spcl">74836fafdb023300442c7b82399619a1</sys_package>
         <sys_policy/>
         <sys_scope display_value="SPCL">74836fafdb023300442c7b82399619a1</sys_scope>
-        <sys_update_name>sys_dictionary_x_373079_spcl_order_null</sys_update_name>
+        <sys_update_name>sys_dictionary_x_373079_spcl_vehicle_valves</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-25 09:23:30</sys_updated_on>
+        <sys_updated_on>2019-06-27 18:38:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Vehicle" max_length="40" name="x_373079_spcl_vehicle" type="collection">
+        <element label="Bore" max_length="40" name="bore" type="integer"/>
+        <element label="Brake System&#9;" max_length="40" name="brake_system" type="string"/>
+        <element label="Cam Type" max_length="40" name="cam_type" type="string"/>
+        <element label="Cargo Volume" max_length="40" name="cargo_volume" type="string"/>
+        <element label="Chasis Number" max_length="40" name="chasis_number" type="string"/>
+        <element label="Color" max_length="40" name="color" type="string"/>
+        <element label="Compression" max_length="40" name="compression" type="integer"/>
+        <element label="Curb Weight" max_length="40" name="curb_weight" type="string"/>
+        <element label="Cylinders" max_length="40" name="cylinders" type="integer"/>
+        <element label="Displacement" max_length="40" name="displacement" type="integer"/>
+        <element label="Drive Type" max_length="40" name="drive_type" type="string"/>
+        <element label="Engine Summary&#9;" max_length="40" name="engine_summary" type="string"/>
+        <element label="EPA City" max_length="40" name="epa_city" type="string"/>
+        <element label="EPA Combined&#9;" max_length="40" name="epa_combined" type="string"/>
+        <element label="EPA Highway&#9;" max_length="40" name="epa_highway" type="string"/>
+        <element label="Front Tire PSI&#9;" max_length="40" name="front_tire_psi" type="integer"/>
+        <element label="Front Tire Type&#9;" max_length="40" name="front_tire_type" type="string"/>
+        <element label="Front Track Width" max_length="20" name="front_track_width" type="decimal"/>
+        <element label="Front Wheel Diameter&#9;" max_length="40" name="front_wheel_diameter" type="string"/>
+        <element label="Gross Vehicle Weight Rating&#9;" max_length="40" name="gross_vehicle_weight_rating" type="string"/>
+        <element label="Ground Clearance" max_length="40" name="ground_clearance" type="string"/>
+        <element label="Height" max_length="40" name="height" type="string"/>
+        <element label="Interior Volume" max_length="40" name="interior_volume" type="string"/>
+        <element label="Length" max_length="40" name="length" type="string"/>
+        <element label="Make" max_length="40" name="make" type="string"/>
+        <element label="Max HP" max_length="40" name="max_hp" type="integer"/>
+        <element label="Max Payload" max_length="40" name="max_payload" type="string"/>
+        <element label="Max Torque" max_length="40" name="max_torque" type="integer"/>
+        <element label="Model" max_length="40" name="model" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Ownership" max_length="40" name="ownership" type="choice">
+            <choice/>
+        </element>
+        <element label="Rear Axle&#9;" max_length="40" name="rear_axle" type="string"/>
+        <element label="Rear Tire PSI&#9;" max_length="40" name="rear_tire_psi" type="integer"/>
+        <element label="Rear Tire Type" max_length="40" name="rear_tire_type" type="string"/>
+        <element label="Rear Track Width" max_length="20" name="rear_track_width" type="decimal"/>
+        <element label="Rear Wheel Diameter" max_length="40" name="rear_wheel_diameter" type="string"/>
+        <element label="Redline RPM" max_length="40" name="redline_rpm" type="integer"/>
+        <element label="Registration Number" max_length="40" name="registration_number" type="string"/>
+        <element label="Stroke" max_length="40" name="stroke" type="integer"/>
+        <element label="Towing Capacity" max_length="40" name="towing_capacity" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice/>
+        </element>
+        <element label="Valves" max_length="40" name="valves" type="integer"/>
+        <element label="Wheelbase" max_length="40" name="wheelbase" type="string"/>
+        <element label="Width" max_length="40" name="width" type="string"/>
+        <element label="Year" max_length="40" name="year" type="integer"/>
     </element>
 </database>

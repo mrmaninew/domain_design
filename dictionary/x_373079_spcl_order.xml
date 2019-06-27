@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Order" max_length="40" name="x_373079_spcl_order" type="collection">
+    <element extends="task" label="Order" max_length="40" name="x_373079_spcl_order" sizeclass="1" type="collection">
         <element label="Booking Code" max_length="40" name="booking_code" type="string"/>
         <element label="Cargo Volume" max_length="40" name="cargo_volume" type="integer"/>
         <element label="CDO" max_length="40" name="cdo" type="string"/>
