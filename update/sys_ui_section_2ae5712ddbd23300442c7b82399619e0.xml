@@ -4,13 +4,13 @@
             <element>pick_up_location</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-27 11:40:00</sys_created_on>
-            <sys_id>4d27316ddbd23300442c7b8239961978</sys_id>
+            <sys_created_on>2019-06-27 15:30:04</sys_created_on>
+            <sys_id>c3cb2e2ddb563300442c7b8239961926</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Delivery Locations" display_value="Delivery Locations" name="x_373079_spcl_order_vehicles" sys_domain="global" view="Default view">2ae5712ddbd23300442c7b82399619e0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-27 11:40:00</sys_updated_on>
+            <sys_updated_on>2019-06-27 15:30:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,55 +18,69 @@
             <element>container_pick_up_location</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-27 11:40:00</sys_created_on>
-            <sys_id>cd27316ddbd23300442c7b8239961978</sys_id>
+            <sys_created_on>2019-06-27 15:30:04</sys_created_on>
+            <sys_id>47cb2e2ddb563300442c7b8239961926</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Delivery Locations" display_value="Delivery Locations" name="x_373079_spcl_order_vehicles" sys_domain="global" view="Default view">2ae5712ddbd23300442c7b82399619e0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-27 11:40:00</sys_updated_on>
+            <sys_updated_on>2019-06-27 15:30:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>yard_location</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-27 15:30:04</sys_created_on>
+            <sys_id>c7cb2e2ddb563300442c7b8239961926</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Delivery Locations" display_value="Delivery Locations" name="x_373079_spcl_order_vehicles" sys_domain="global" view="Default view">2ae5712ddbd23300442c7b82399619e0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-27 15:30:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-27 11:40:00</sys_created_on>
-            <sys_id>4127316ddbd23300442c7b8239961979</sys_id>
+            <sys_created_on>2019-06-27 15:30:04</sys_created_on>
+            <sys_id>4bcb2e2ddb563300442c7b8239961926</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Delivery Locations" display_value="Delivery Locations" name="x_373079_spcl_order_vehicles" sys_domain="global" view="Default view">2ae5712ddbd23300442c7b82399619e0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-27 11:40:00</sys_updated_on>
+            <sys_updated_on>2019-06-27 15:30:04</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>delivery_location</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-27 11:40:00</sys_created_on>
-            <sys_id>c127316ddbd23300442c7b8239961979</sys_id>
+            <sys_created_on>2019-06-27 15:30:04</sys_created_on>
+            <sys_id>cbcb2e2ddb563300442c7b8239961926</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Delivery Locations" display_value="Delivery Locations" name="x_373079_spcl_order_vehicles" sys_domain="global" view="Default view">2ae5712ddbd23300442c7b82399619e0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-27 11:40:00</sys_updated_on>
+            <sys_updated_on>2019-06-27 15:30:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>container_return_location</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-27 11:40:00</sys_created_on>
-            <sys_id>4527316ddbd23300442c7b8239961979</sys_id>
+            <sys_created_on>2019-06-27 15:30:04</sys_created_on>
+            <sys_id>4fcb2e2ddb563300442c7b8239961926</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Delivery Locations" display_value="Delivery Locations" name="x_373079_spcl_order_vehicles" sys_domain="global" view="Default view">2ae5712ddbd23300442c7b82399619e0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-27 11:40:00</sys_updated_on>
+            <sys_updated_on>2019-06-27 15:30:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

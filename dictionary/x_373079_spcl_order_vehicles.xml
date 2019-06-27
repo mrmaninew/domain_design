@@ -2,6 +2,14 @@
     <element label="Assigned Vehicles" max_length="40" name="x_373079_spcl_order_vehicles" type="collection">
         <element label="Assigned Driver" max_length="32" name="assigned_driver" reference="x_373079_spcl_driver" type="reference"/>
         <element label="Bill of Lading No" max_length="40" name="bill_of_lading_no" type="string"/>
+        <element label="Cargo Volume" max_length="40" name="cargo_volume" type="integer"/>
+        <element choice="3" default="Fertilizer" label="Commodity" max_length="40" name="commodity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Fertilizer" sequence="0" value="Fertilizer"/>
+                <element inactive_on_update="false" label="Stuffed Cotton" sequence="1" value="Stuffed Cotton"/>
+            </choice>
+        </element>
+        <element label="Consignment delivered at customer location" max_length="40" name="consignment_delivered_at_customer_location" type="glide_date_time"/>
         <element choice="3" default="Bulk" label="Consignment Mode" max_length="40" name="consignment_mode" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Bulk" sequence="0" value="Bulk"/>
@@ -9,6 +17,7 @@
                 <element inactive_on_update="false" label="Container" sequence="2" value="Container"/>
             </choice>
         </element>
+        <element label="Consignment Pickup" max_length="40" name="consignment_pickup" type="glide_date_time"/>
         <element choice="3" default="Import" label="Consignment Type" max_length="40" name="consignment_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Import" sequence="0" value="Import"/>
@@ -18,33 +27,62 @@
         <element label="Container / Consignment No" max_length="40" name="container_consignment_no" type="string"/>
         <element label="Container Pick Up Location" max_length="32" name="container_pick_up_location" reference="cmn_location" type="reference"/>
         <element label="Container Return Location" max_length="32" name="container_return_location" reference="cmn_location" type="reference"/>
+        <element label="Declared Value of Goods" max_length="20" name="declared_value_of_goods" type="price"/>
         <element label="Delivery Location" max_length="32" name="delivery_location" reference="cmn_location" type="reference"/>
         <element label="Delivery Notes" max_length="4000" name="delivery_notes" type="journal"/>
+        <element label="Driver Assigned Time" max_length="40" name="driver_assigned_time" type="glide_date_time"/>
+        <element label="Drop-off Container" max_length="40" name="drop_off_container" type="glide_date_time"/>
+        <element label="Expenses / Document Pickup" max_length="40" name="expenses_document_pickup" type="glide_date_time"/>
+        <element label="Invoice No" max_length="32" name="invoice_no" reference="x_373079_spcl_invoice" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Order" max_length="32" name="order" reference="x_373079_spcl_order" type="reference"/>
         <element label="Pick Up Location" max_length="32" name="pick_up_location" reference="cmn_location" type="reference"/>
         <element label="Receipt No" max_length="40" name="receipt_no" type="string"/>
         <element label="Seal No's" max_length="4000" name="seal_no_s" type="simple_name_values"/>
+        <element choice="3" default="New" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Closed / Complete" sequence="0" value="Closed / Complete"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="New"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="In Progress"/>
+                <element inactive="true" inactive_on_update="true" label="In-progress" sequence="1" value="In-progress"/>
+                <element inactive="true" inactive_on_update="true" label="Closed / In-Complete" sequence="2" value="Closed / In-Complete"/>
+                <element inactive_on_update="false" label="Closed Complete" sequence="2" value="Closed Complete"/>
+                <element inactive_on_update="false" label="Closed In-Complete" sequence="3" value="Closed In-Complete"/>
+            </choice>
+        </element>
         <element label="Assigned Vehicle" max_length="32" name="vehicle" reference="x_373079_spcl_vehicle" type="reference"/>
+        <element label="Vehicle Assigned Time" max_length="40" name="vehicle_assigned_time" type="glide_date_time"/>
+        <element label="Vehicle Gate In / RFID" max_length="40" name="vehicle_gate_in_rfid" type="glide_date_time"/>
+        <element label="Vehicle Gate Out" max_length="40" name="vehicle_gate_out" type="glide_date_time"/>
+        <element label="Vehicle Return Gate In / RFID" max_length="40" name="vehicle_return_gate_in_rfid" type="glide_date_time"/>
+        <element label="Vehicle Return Gate Out / RFID" max_length="40" name="vehicle_return_gate_out_rfid" type="glide_date_time"/>
+        <element label="Volume Units" max_length="40" name="volume_units" type="string"/>
+        <element label="Yard Location" max_length="32" name="yard_location" reference="cmn_location" type="reference"/>
         <index name="index">
-            <element name="container_pick_up_location"/>
+            <element name="yard_location"/>
         </index>
         <index name="index2">
-            <element name="container_return_location"/>
+            <element name="container_pick_up_location"/>
         </index>
         <index name="index3">
-            <element name="assigned_driver"/>
+            <element name="container_return_location"/>
         </index>
         <index name="index4">
-            <element name="pick_up_location"/>
+            <element name="invoice_no"/>
         </index>
         <index name="index5">
-            <element name="delivery_location"/>
+            <element name="assigned_driver"/>
         </index>
         <index name="index6">
-            <element name="order"/>
+            <element name="pick_up_location"/>
         </index>
         <index name="index7">
+            <element name="delivery_location"/>
+        </index>
+        <index name="index8">
+            <element name="order"/>
+        </index>
+        <index name="index9">
             <element name="vehicle"/>
         </index>
     </element>

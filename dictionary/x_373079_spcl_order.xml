@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="task" label="Order" max_length="40" name="x_373079_spcl_order" type="collection">
+        <element label="Booking Code" max_length="40" name="booking_code" type="string"/>
         <element label="Cargo Volume" max_length="40" name="cargo_volume" type="integer"/>
         <element label="CDO" max_length="40" name="cdo" type="string"/>
         <element choice="1" label="Commodity" max_length="40" name="commodity" type="choice">
@@ -26,6 +27,7 @@
         <element label="Delivery Date" max_length="40" name="delivery_date" type="glide_date_time"/>
         <element label="From" max_length="32" name="from" reference="cmn_location" type="reference"/>
         <element label="Lead" max_length="32" name="lead" read_only="true" reference="x_373079_spcl_lead" type="reference"/>
+        <element label="Liner Service" max_length="40" name="liner_service" type="string"/>
         <element choice="3" default="Internal" label="Movement" max_length="40" name="movement" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Internal" sequence="0" value="Internal"/>
@@ -34,6 +36,7 @@
         </element>
         <element label="No of Vehicles" max_length="40" name="no_of_vehicles" type="integer"/>
         <element label="Pick Up Date" max_length="40" name="pick_up_date" type="glide_date_time"/>
+        <element label="Port Cut-off Time" max_length="40" name="port_cut_off_time" type="glide_date_time"/>
         <element label="TDO " max_length="40" name="tdo" type="string"/>
         <element label="To" max_length="32" name="to" reference="core_company" type="reference"/>
         <element choice="3" default="20FT" label="Vehicle Type" max_length="40" name="vehicle_type" type="choice">
@@ -42,6 +45,8 @@
                 <element inactive_on_update="false" label="40FT" sequence="1" value="40FT"/>
             </choice>
         </element>
+        <element label="Vessel" max_length="40" name="vessel" type="string"/>
+        <element label="Vessel Cut-off Time" max_length="40" name="vessel_cut_off_time" type="glide_date_time"/>
         <element choice="1" label="Volume Units" max_length="40" name="volume_units" type="string">
             <choice/>
         </element>

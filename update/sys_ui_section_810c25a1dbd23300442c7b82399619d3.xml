@@ -1,72 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Consignment" section_id="810c25a1dbd23300442c7b82399619d3" sys_domain="global" table="x_373079_spcl_order" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>from</element>
+            <element>customer</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-27 10:54:14</sys_created_on>
-            <sys_id>e6aceda1dbd23300442c7b823996190a</sys_id>
+            <sys_created_on>2019-06-27 16:39:06</sys_created_on>
+            <sys_id>5a9b7a29db963300442c7b82399619a2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Consignment" display_value="Consignment" name="x_373079_spcl_order" sys_domain="global" view="Default view">810c25a1dbd23300442c7b82399619d3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-27 10:54:14</sys_updated_on>
+            <sys_updated_on>2019-06-27 16:39:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vessel</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-27 16:39:06</sys_created_on>
+            <sys_id>da9b7a29db963300442c7b82399619a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignment" display_value="Consignment" name="x_373079_spcl_order" sys_domain="global" view="Default view">810c25a1dbd23300442c7b82399619d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-27 16:39:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>from</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-27 16:39:06</sys_created_on>
+            <sys_id>5e9b7a29db963300442c7b82399619a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignment" display_value="Consignment" name="x_373079_spcl_order" sys_domain="global" view="Default view">810c25a1dbd23300442c7b82399619d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-27 16:39:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>pick_up_date</element>
-            <position>1</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-27 10:54:14</sys_created_on>
-            <sys_id>6aaceda1dbd23300442c7b823996190a</sys_id>
+            <sys_created_on>2019-06-27 16:39:06</sys_created_on>
+            <sys_id>de9b7a29db963300442c7b82399619a2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Consignment" display_value="Consignment" name="x_373079_spcl_order" sys_domain="global" view="Default view">810c25a1dbd23300442c7b82399619d3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-27 10:54:14</sys_updated_on>
+            <sys_updated_on>2019-06-27 16:39:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>port_cut_off_time</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-27 16:39:06</sys_created_on>
+            <sys_id>529b7a29db963300442c7b82399619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignment" display_value="Consignment" name="x_373079_spcl_order" sys_domain="global" view="Default view">810c25a1dbd23300442c7b82399619d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-27 16:39:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-27 10:54:14</sys_created_on>
-            <sys_id>eaaceda1dbd23300442c7b823996190a</sys_id>
+            <sys_created_on>2019-06-27 16:39:06</sys_created_on>
+            <sys_id>d29b7a29db963300442c7b82399619a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Consignment" display_value="Consignment" name="x_373079_spcl_order" sys_domain="global" view="Default view">810c25a1dbd23300442c7b82399619d3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-27 10:54:14</sys_updated_on>
+            <sys_updated_on>2019-06-27 16:39:06</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>to</element>
-            <position>3</position>
+            <element>booking_code</element>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-27 10:54:14</sys_created_on>
-            <sys_id>6eaceda1dbd23300442c7b823996190a</sys_id>
+            <sys_created_on>2019-06-27 16:39:06</sys_created_on>
+            <sys_id>569b7a29db963300442c7b82399619a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Consignment" display_value="Consignment" name="x_373079_spcl_order" sys_domain="global" view="Default view">810c25a1dbd23300442c7b82399619d3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-27 10:54:14</sys_updated_on>
+            <sys_updated_on>2019-06-27 16:39:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>liner_service</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-27 16:39:06</sys_created_on>
+            <sys_id>d69b7a29db963300442c7b82399619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignment" display_value="Consignment" name="x_373079_spcl_order" sys_domain="global" view="Default view">810c25a1dbd23300442c7b82399619d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-27 16:39:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>to</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-27 16:39:06</sys_created_on>
+            <sys_id>5a9b7a29db963300442c7b82399619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignment" display_value="Consignment" name="x_373079_spcl_order" sys_domain="global" view="Default view">810c25a1dbd23300442c7b82399619d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-27 16:39:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>delivery_date</element>
-            <position>4</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-27 10:54:14</sys_created_on>
-            <sys_id>eeaceda1dbd23300442c7b823996190a</sys_id>
+            <sys_created_on>2019-06-27 16:39:06</sys_created_on>
+            <sys_id>da9b7a29db963300442c7b82399619a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Consignment" display_value="Consignment" name="x_373079_spcl_order" sys_domain="global" view="Default view">810c25a1dbd23300442c7b82399619d3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-27 10:54:14</sys_updated_on>
+            <sys_updated_on>2019-06-27 16:39:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vessel_cut_off_time</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-27 16:39:06</sys_created_on>
+            <sys_id>5e9b7a29db963300442c7b82399619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignment" display_value="Consignment" name="x_373079_spcl_order" sys_domain="global" view="Default view">810c25a1dbd23300442c7b82399619d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-27 16:39:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

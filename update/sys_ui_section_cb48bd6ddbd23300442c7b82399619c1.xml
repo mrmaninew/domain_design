@@ -4,69 +4,139 @@
             <element>receipt_no</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-27 11:47:30</sys_created_on>
-            <sys_id>bed8b5addbd23300442c7b8239961976</sys_id>
+            <sys_created_on>2019-06-27 16:34:31</sys_created_on>
+            <sys_id>1b8a3ee5db963300442c7b82399619ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Lorry Receipt" display_value="Lorry Receipt" name="x_373079_spcl_order_vehicles" sys_domain="global" view="Default view">cb48bd6ddbd23300442c7b82399619c1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-27 11:47:30</sys_updated_on>
+            <sys_updated_on>2019-06-27 16:34:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cargo_volume</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-27 16:34:31</sys_created_on>
+            <sys_id>9b8a3ee5db963300442c7b82399619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lorry Receipt" display_value="Lorry Receipt" name="x_373079_spcl_order_vehicles" sys_domain="global" view="Default view">cb48bd6ddbd23300442c7b82399619c1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-27 16:34:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>commodity</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-27 16:34:31</sys_created_on>
+            <sys_id>1f8a3ee5db963300442c7b82399619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lorry Receipt" display_value="Lorry Receipt" name="x_373079_spcl_order_vehicles" sys_domain="global" view="Default view">cb48bd6ddbd23300442c7b82399619c1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-27 16:34:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>bill_of_lading_no</element>
-            <position>1</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-27 11:47:30</sys_created_on>
-            <sys_id>32d8b5addbd23300442c7b8239961977</sys_id>
+            <sys_created_on>2019-06-27 16:34:31</sys_created_on>
+            <sys_id>9f8a3ee5db963300442c7b82399619ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Lorry Receipt" display_value="Lorry Receipt" name="x_373079_spcl_order_vehicles" sys_domain="global" view="Default view">cb48bd6ddbd23300442c7b82399619c1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-27 11:47:30</sys_updated_on>
+            <sys_updated_on>2019-06-27 16:34:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>invoice_no</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-27 16:34:31</sys_created_on>
+            <sys_id>138a3ee5db963300442c7b82399619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lorry Receipt" display_value="Lorry Receipt" name="x_373079_spcl_order_vehicles" sys_domain="global" view="Default view">cb48bd6ddbd23300442c7b82399619c1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-27 16:34:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-27 11:47:30</sys_created_on>
-            <sys_id>b2d8b5addbd23300442c7b8239961977</sys_id>
+            <sys_created_on>2019-06-27 16:34:31</sys_created_on>
+            <sys_id>938a3ee5db963300442c7b82399619f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Lorry Receipt" display_value="Lorry Receipt" name="x_373079_spcl_order_vehicles" sys_domain="global" view="Default view">cb48bd6ddbd23300442c7b82399619c1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-27 11:47:30</sys_updated_on>
+            <sys_updated_on>2019-06-27 16:34:31</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>container_consignment_no</element>
-            <position>3</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-27 11:47:30</sys_created_on>
-            <sys_id>36d8b5addbd23300442c7b8239961977</sys_id>
+            <sys_created_on>2019-06-27 16:34:31</sys_created_on>
+            <sys_id>178a3ee5db963300442c7b82399619f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Lorry Receipt" display_value="Lorry Receipt" name="x_373079_spcl_order_vehicles" sys_domain="global" view="Default view">cb48bd6ddbd23300442c7b82399619c1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-27 11:47:30</sys_updated_on>
+            <sys_updated_on>2019-06-27 16:34:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>volume_units</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-27 16:34:31</sys_created_on>
+            <sys_id>978a3ee5db963300442c7b82399619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lorry Receipt" display_value="Lorry Receipt" name="x_373079_spcl_order_vehicles" sys_domain="global" view="Default view">cb48bd6ddbd23300442c7b82399619c1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-27 16:34:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>declared_value_of_goods</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-27 16:34:31</sys_created_on>
+            <sys_id>1b8a3ee5db963300442c7b82399619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lorry Receipt" display_value="Lorry Receipt" name="x_373079_spcl_order_vehicles" sys_domain="global" view="Default view">cb48bd6ddbd23300442c7b82399619c1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-27 16:34:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>seal_no_s</element>
-            <position>4</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-27 11:47:30</sys_created_on>
-            <sys_id>b6d8b5addbd23300442c7b8239961977</sys_id>
+            <sys_created_on>2019-06-27 16:34:31</sys_created_on>
+            <sys_id>9b8a3ee5db963300442c7b82399619f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Lorry Receipt" display_value="Lorry Receipt" name="x_373079_spcl_order_vehicles" sys_domain="global" view="Default view">cb48bd6ddbd23300442c7b82399619c1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-27 11:47:30</sys_updated_on>
+            <sys_updated_on>2019-06-27 16:34:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
