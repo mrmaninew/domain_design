@@ -4,8 +4,8 @@
             <dependent_value/>
             <element>consignment_type</element>
             <hint/>
-            <inactive>false</inactive>
-            <label>Bulk</label>
+            <inactive>true</inactive>
+            <label>Break Bulk</label>
             <language>en</language>
             <name>x_373079_spcl_lead</name>
             <sequence>0</sequence>
@@ -13,29 +13,10 @@
             <sys_created_on>2019-06-24 11:48:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>265c1220db523300442c7b82399619a6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-24 11:48:39</sys_updated_on>
-            <value>Bulk</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>consignment_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Break Bulk</label>
-            <language>en</language>
-            <name>x_373079_spcl_lead</name>
-            <sequence>1</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-24 11:48:39</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>2a5c1220db523300442c7b82399619a7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-24 11:48:39</sys_updated_on>
+            <sys_updated_on>2019-06-25 10:14:17</sys_updated_on>
             <value>Break Bulk</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -43,6 +24,63 @@
             <element>consignment_type</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Import</label>
+            <language>en</language>
+            <name>x_373079_spcl_lead</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-25 10:14:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca505bbcdb923300442c7b8239961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-25 10:14:17</sys_updated_on>
+            <value>Import</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consignment_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Bulk</label>
+            <language>en</language>
+            <name>x_373079_spcl_lead</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-24 11:48:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>265c1220db523300442c7b82399619a6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-25 10:14:17</sys_updated_on>
+            <value>Bulk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consignment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Export</label>
+            <language>en</language>
+            <name>x_373079_spcl_lead</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-25 10:14:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e505bbcdb923300442c7b8239961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-25 10:14:17</sys_updated_on>
+            <value>Export</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>consignment_type</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>Container</label>
             <language>en</language>
             <name>x_373079_spcl_lead</name>
@@ -52,9 +90,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>e65c1220db523300442c7b82399619a8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-24 11:48:39</sys_updated_on>
+            <sys_updated_on>2019-06-25 10:14:17</sys_updated_on>
             <value>Container</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">

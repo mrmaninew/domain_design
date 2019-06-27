@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Order" max_length="40" name="x_373079_spcl_order" type="collection"/>
+    <element extends="task" label="Order" max_length="40" name="x_373079_spcl_order" type="collection">
+        <element label="Lead" max_length="32" name="lead" read_only="true" reference="x_373079_spcl_lead" type="reference"/>
+    </element>
 </database>

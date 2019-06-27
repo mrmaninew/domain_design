@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="consignment_type" label="Consignment Type" language="en" table="x_373079_spcl_lead">
+    <sys_documentation element="number" label="Number" language="en" table="x_373079_spcl_order_vehicles">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>consignment_type</element>
+            <element>number</element>
             <help/>
             <hint/>
-            <label>Consignment Type</label>
+            <label>Number</label>
             <language>en</language>
-            <name>x_373079_spcl_lead</name>
-            <plural>Consignment Types</plural>
+            <name>x_373079_spcl_order_vehicles</name>
+            <plural>Numbers</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-25 10:12:16</sys_created_on>
-            <sys_id>d8ef07bcdb923300442c7b82399619a2</sys_id>
+            <sys_created_on>2019-06-27 09:57:09</sys_created_on>
+            <sys_id>6a9f1969db923300442c7b8239961953</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Consignment Type</sys_name>
+            <sys_name>Number</sys_name>
             <sys_package display_value="SPCL" source="x_373079_spcl">74836fafdb023300442c7b82399619a1</sys_package>
             <sys_policy/>
             <sys_scope display_value="SPCL">74836fafdb023300442c7b82399619a1</sys_scope>
-            <sys_update_name>sys_documentation_x_373079_spcl_lead_consignment_type_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_373079_spcl_order_vehicles_number_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-25 10:12:16</sys_updated_on>
+            <sys_updated_on>2019-06-27 09:57:09</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

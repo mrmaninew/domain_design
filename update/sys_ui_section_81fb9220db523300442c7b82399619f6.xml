@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-25 07:57:11</sys_created_on>
-            <sys_id>65f0b2b4db523300442c7b8239961918</sys_id>
+            <sys_created_on>2019-06-25 10:13:35</sys_created_on>
+            <sys_id>3b205bbcdb923300442c7b8239961937</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_373079_spcl_lead" sys_domain="global" view="Default view">81fb9220db523300442c7b82399619f6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-25 07:57:11</sys_updated_on>
+            <sys_updated_on>2019-06-25 10:13:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,55 +18,55 @@
             <element>movement</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-25 07:57:11</sys_created_on>
-            <sys_id>e5f0b2b4db523300442c7b8239961918</sys_id>
+            <sys_created_on>2019-06-25 10:13:35</sys_created_on>
+            <sys_id>bb205bbcdb923300442c7b8239961937</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_373079_spcl_lead" sys_domain="global" view="Default view">81fb9220db523300442c7b82399619f6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-25 07:57:11</sys_updated_on>
+            <sys_updated_on>2019-06-25 10:13:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consignment_type</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-25 10:13:35</sys_created_on>
+            <sys_id>3f205bbcdb923300442c7b8239961937</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_373079_spcl_lead" sys_domain="global" view="Default view">81fb9220db523300442c7b82399619f6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-25 10:13:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>cargo_volume</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-25 07:57:11</sys_created_on>
-            <sys_id>69f0b2b4db523300442c7b8239961918</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_373079_spcl_lead" sys_domain="global" view="Default view">81fb9220db523300442c7b82399619f6</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-25 07:57:11</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>no_of_vehicles</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-25 07:57:11</sys_created_on>
-            <sys_id>e9f0b2b4db523300442c7b8239961918</sys_id>
+            <sys_created_on>2019-06-25 10:13:35</sys_created_on>
+            <sys_id>bf205bbcdb923300442c7b8239961937</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_373079_spcl_lead" sys_domain="global" view="Default view">81fb9220db523300442c7b82399619f6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-25 07:57:11</sys_updated_on>
+            <sys_updated_on>2019-06-25 10:13:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>commodity</element>
+            <element>vehicle_type</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-25 07:57:11</sys_created_on>
-            <sys_id>6df0b2b4db523300442c7b8239961918</sys_id>
+            <sys_created_on>2019-06-25 10:13:35</sys_created_on>
+            <sys_id>33205bbcdb923300442c7b8239961938</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_373079_spcl_lead" sys_domain="global" view="Default view">81fb9220db523300442c7b82399619f6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-25 07:57:11</sys_updated_on>
+            <sys_updated_on>2019-06-25 10:13:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,111 +74,125 @@
             <element>assignment_group</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-25 07:57:11</sys_created_on>
-            <sys_id>edf0b2b4db523300442c7b8239961918</sys_id>
+            <sys_created_on>2019-06-25 10:13:35</sys_created_on>
+            <sys_id>b3205bbcdb923300442c7b8239961938</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_373079_spcl_lead" sys_domain="global" view="Default view">81fb9220db523300442c7b82399619f6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-25 07:57:11</sys_updated_on>
+            <sys_updated_on>2019-06-25 10:13:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>commodity</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-25 10:13:35</sys_created_on>
+            <sys_id>37205bbcdb923300442c7b8239961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_373079_spcl_lead" sys_domain="global" view="Default view">81fb9220db523300442c7b82399619f6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-25 10:13:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-25 07:57:11</sys_created_on>
-            <sys_id>61f0b2b4db523300442c7b8239961919</sys_id>
+            <sys_created_on>2019-06-25 10:13:35</sys_created_on>
+            <sys_id>b7205bbcdb923300442c7b8239961938</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_373079_spcl_lead" sys_domain="global" view="Default view">81fb9220db523300442c7b82399619f6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-25 07:57:11</sys_updated_on>
+            <sys_updated_on>2019-06-25 10:13:35</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>customer</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-25 07:57:11</sys_created_on>
-            <sys_id>e1f0b2b4db523300442c7b8239961919</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_373079_spcl_lead" sys_domain="global" view="Default view">81fb9220db523300442c7b82399619f6</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-25 07:57:11</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>consignment_type</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-25 07:57:11</sys_created_on>
-            <sys_id>65f0b2b4db523300442c7b8239961919</sys_id>
+            <sys_created_on>2019-06-25 10:13:35</sys_created_on>
+            <sys_id>3b205bbcdb923300442c7b8239961938</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_373079_spcl_lead" sys_domain="global" view="Default view">81fb9220db523300442c7b82399619f6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-25 07:57:11</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>volume_units</element>
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-25 07:57:11</sys_created_on>
-            <sys_id>e5f0b2b4db523300442c7b8239961919</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_373079_spcl_lead" sys_domain="global" view="Default view">81fb9220db523300442c7b82399619f6</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-25 07:57:11</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>vehicle_type</element>
-            <position>10</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-25 07:57:11</sys_created_on>
-            <sys_id>69f0b2b4db523300442c7b8239961919</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_373079_spcl_lead" sys_domain="global" view="Default view">81fb9220db523300442c7b82399619f6</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-25 07:57:11</sys_updated_on>
+            <sys_updated_on>2019-06-25 10:13:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>11</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-25 07:57:11</sys_created_on>
-            <sys_id>e9f0b2b4db523300442c7b8239961919</sys_id>
+            <sys_created_on>2019-06-25 10:13:35</sys_created_on>
+            <sys_id>bb205bbcdb923300442c7b8239961938</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_373079_spcl_lead" sys_domain="global" view="Default view">81fb9220db523300442c7b82399619f6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-25 07:57:11</sys_updated_on>
+            <sys_updated_on>2019-06-25 10:13:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consignment_mode</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-25 10:13:35</sys_created_on>
+            <sys_id>3f205bbcdb923300442c7b8239961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_373079_spcl_lead" sys_domain="global" view="Default view">81fb9220db523300442c7b82399619f6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-25 10:13:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>volume_units</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-25 10:13:35</sys_created_on>
+            <sys_id>bf205bbcdb923300442c7b8239961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_373079_spcl_lead" sys_domain="global" view="Default view">81fb9220db523300442c7b82399619f6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-25 10:13:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>no_of_vehicles</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-25 10:13:35</sys_created_on>
+            <sys_id>33205bbcdb923300442c7b8239961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_373079_spcl_lead" sys_domain="global" view="Default view">81fb9220db523300442c7b82399619f6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-25 10:13:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
-            <position>12</position>
+            <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-25 07:57:11</sys_created_on>
-            <sys_id>6df0b2b4db523300442c7b8239961919</sys_id>
+            <sys_created_on>2019-06-25 10:13:35</sys_created_on>
+            <sys_id>b3205bbcdb923300442c7b8239961939</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_373079_spcl_lead" sys_domain="global" view="Default view">81fb9220db523300442c7b82399619f6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-25 07:57:11</sys_updated_on>
+            <sys_updated_on>2019-06-25 10:13:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

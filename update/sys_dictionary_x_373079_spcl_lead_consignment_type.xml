@@ -11,13 +11,13 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>1</choice>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Consignment Type</column_label>
         <comments/>
         <create_roles/>
-        <default_value>Bulk</default_value>
+        <default_value>Import</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -52,8 +52,8 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-06-24 11:40:01</sys_created_on>
-        <sys_id>42185a60db123300442c7b8239961902</sys_id>
+        <sys_created_on>2019-06-25 10:12:15</sys_created_on>
+        <sys_id>e4cf8f7cdb923300442c7b82399619e8</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Consignment Type</sys_name>
         <sys_package display_value="SPCL" source="x_373079_spcl">74836fafdb023300442c7b82399619a1</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="SPCL">74836fafdb023300442c7b82399619a1</sys_scope>
         <sys_update_name>sys_dictionary_x_373079_spcl_lead_consignment_type</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-24 11:49:26</sys_updated_on>
+        <sys_updated_on>2019-06-25 10:14:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
